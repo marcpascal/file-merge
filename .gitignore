@@ -1,0 +1,6 @@
+old_files/
+.cproject
+.project
+.settings/
+*.o
+*.exe
