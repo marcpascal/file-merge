@@ -1,9 +1,0 @@
-http://laurent-barbareau.developpez.com/tutoriels/EclipseCDT/
-
-Le développement en C/C++ avec Eclipse requiert le plug-in officiel CDT, ainsi qu'un compilateur C/C++, l'outil make et un débogueur.
-
-Sous Linux, il est probable que ceux-ci soient déjà installés. Dans le cas contraire, il vous faudra les installer par l'intermédiaire du package GNU Toolchain, lequel doit être disponible au sein de votre distribution Linux.
-
-Sous Mac OS X, si nécessaire, vous trouverez le GNU Toolchain Apple, dans l'EDI Xcode.
-
-Sous Windows, par défaut il n'y a pas ce genre d'outils, il faut donc se charger de les installer. C'est ce que nous verrons après la configuration d'Eclipse.
