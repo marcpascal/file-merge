@@ -4,3 +4,5 @@ old_files/
 .settings/
 *.o
 *.exe
+/Debug/
+file.out

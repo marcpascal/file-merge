@@ -15,7 +15,7 @@ public:
 		for(unsigned int i=0; i < message->size(); i++) {
 			cout << message->at(i) << endl;
 		}
-		cout << "\n\n" << endl;
+		cout << "]==\n\n" << endl;
 	}
 
 	void logInt(string label, int value) {
@@ -207,7 +207,7 @@ int main( int argc, char *argv[] )  {
 	writeFile.create(argv[3]);
 	writeFile.append(&infile, 0, headerEnd);
 	writeFile.append(&body, 0, body.size());
-	writeFile.append(&infile, footerEnd, infile.size());
+	writeFile.append(&infile, footerEnd+1, infile.size());
 	writeFile.close();
 
 	// Returning 0 for no execution error
